@@ -1,46 +1,42 @@
-# Getting Started with Create React App
+# eAteliers - Home Task
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+eAteliers is on a mission to transform and digitize the wedding industry. We provide invaluable benefits to bridal brands by automating their daily processes, facilitating connections with potential partners, and allowing employees to focus on what's most important: the brides.
 
-## Available Scripts
+One of our latest features is a public catalog that brands can use for promotion, market sentiment analysis, and potential online sales.
 
-In the project directory, you can run:
+## Requirements
 
-### `npm start`
+For this task, you are required to create an attractive landing page to display these catalogs. We have prepared all the necessary boilerplate code using create-react-app with the typescript template, and TailwindCSS is already set up for styling.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+You can access the catalog data for this task via the following endpoint:
+`https://api.agnieszkaswiatly.com/v1/public/catalogues/e59e7e10-73dc-4d6a-b8ef-1260df3d6572`
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+This is a public endpoint and does not require authentication.
 
-### `npm test`
+You have **two weeks to complete this task**.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Do not hesitate to **send us any questions** about the implementation or requirements.
 
-### `npm run build`
+## Evaluation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Your submission will be evaluated on the following criteria. While none are mandatory, the overall quality of the final work will be considered, and meeting more criteria will enhance your submission:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Clean git history with logically organized commits and fixes.
+- Clean and consistent project structure (e.g., components, pages, stores, hooks, types).
+- Aesthetics of the site.
+- Comprehensive documentation and explanation of any additional features implemented.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Extra points
 
-### `npm run eject`
+- Implementation of Redux and functionality allowing users to add dresses to a basket.
+- Details page where you can see more information about a specific product and navigate back to the listing
+- Inclusion of beautiful effects and animations.
+- Capability for users to view dress images in zoom or full size.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## To run the project
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+To get started, run the following commands in your project directory:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+`npm install` — Installs all dependencies.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+`npm start` — Starts the development server.
